@@ -1,8 +1,9 @@
 .item {
   @include flexbox();
-  @include media-breakpoint-down(md) {
-    @include flex-direction(column);
-  }
+  @include flex-direction(column);
+  // @include media-breakpoint-down(md) {
+  //   @include flex-direction(column);
+  // }
 }
 
 .item__image {
